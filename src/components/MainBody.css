@@ -1,0 +1,42 @@
+.App {
+ 
+    margin: 0;
+    background: rgb(185, 216, 226);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+     
+    
+  }
+
+.AppBg{
+    display: grid;
+    border-radius: 2rem;
+    background-color: white;
+    overflow:scroll;
+    height: 97%;
+    width: 97%;
+    grid-template-rows: 35rem auto;
+    grid-template-columns: 50rem auto ;
+    
+  }
+  
+.mainImg{
+  
+    display: flex;
+    position:relative;
+    border-radius: 20px;
+    object-fit: fit;
+
+
+}  
+
+.caroBox{
+  height: 120px;
+  min-width: 140px;
+  border-radius: 10px;
+  object-fit:"fill",
+
+  
+}
